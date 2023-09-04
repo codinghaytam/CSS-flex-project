@@ -1,13 +1,17 @@
 body{
     margin:0px;
 }
-.header{
+/* header and headertext commun rules*/
+.header,.headertext{
     display:flex;
     justify-content:space-between;
     align-items:center;
     background-color:rgb(7, 7, 41);
     color:white;
+    flex:auto;
+    min-width: 700px;
 }
+/*header bar style*/
 .header h1 {
     margin: 6px 20px ;
     font-size:24px;
@@ -20,3 +24,19 @@ body{
     font-weight: 400;
     color:rgb(148, 131, 247);
 }
+/*header text style*/
+.headertext img{
+    width:250px;
+    margin:50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(91, 91, 219);
+}
+.headertext{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-evenly;
+}
+.headertext .text{
+    flex: 0 0 300px;
+    margin:15px;
+} 
