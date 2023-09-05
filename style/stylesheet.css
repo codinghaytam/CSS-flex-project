@@ -73,3 +73,18 @@ li p{
 .contentimages{
     min-width: 700px;
 }
+/* quote section*/
+.quote{
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    font-family:sans-serif;
+    flex-direction: column;
+    align-items: center;
+    min-width: 700px;
+}
+#name{
+    margin-left:500px;
+}
