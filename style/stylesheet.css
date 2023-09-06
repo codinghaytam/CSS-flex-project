@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    min-width: 700px;
 }
 /* header and headertext commun rules*/
 .header,.headertext{
@@ -9,7 +10,6 @@ body{
     background-color:rgb(7, 7, 41);
     color:white;
     flex:auto;
-    min-width: 700px;
 }
 /*header bar style*/
 .header h1 {
@@ -28,12 +28,10 @@ body{
 .headertext img{
     width:250px;
     margin:50px;
-    border-radius: 10px;
-    border-style: solid;
     border-color:rgb(91, 91, 219);
 }
 .headertext{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
     justify-content: space-evenly;
 }
 .headertext .text{
@@ -50,7 +48,7 @@ body{
     font-weight: bold;
     font-style: inherit;
     font-size: 16px;
-    background-color: rgba(69, 204, 204, 0.938);
+    background-color: rgb(41, 101, 179);
 }
 .contentimages ul{
     display:flex;
@@ -82,20 +80,17 @@ li p{
     font-family:sans-serif;
     text-align: center;
 }
-.contentimages{
-    min-width: 700px;
-}
 /* quote section*/
 .quote{
     background-color: rgb(177, 177, 177);
     display: flex;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(39, 39, 39);
+    color: rgb(59, 59, 59);
     font-family:sans-serif;
     flex-direction: column;
     align-items: center;
-    min-width: 700px;
+
 }
 #name{
     margin-left:500px;
@@ -107,7 +102,6 @@ li p{
     justify-content: center;
     height: 200px;
     padding: 10px;
-    min-width: 700px;
 
 }
 .popup .message{
