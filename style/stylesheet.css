@@ -40,6 +40,18 @@ body{
     flex: 0 0 300px;
     margin:15px;
 } 
+.text button{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color:rgb(255, 246, 246);
+    border-style: none;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 16px;
+    background-color: rgba(69, 204, 204, 0.938);
+}
 .contentimages ul{
     display:flex;
     flex-wrap: wrap;
